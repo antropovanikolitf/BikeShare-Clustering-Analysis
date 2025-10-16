@@ -164,7 +164,7 @@ where:
 
 | Failure | Symptom | Diagnosis | Fix |
 |---------|---------|-----------|-----|
-| **Poor silhouette (<0.3)** | Overlapping clusters | Features lack discriminative power | Add/remove features; try DBSCAN |
+| **Poor silhouette (<0.3)** | Overlapping clusters | Features lack discriminative power | Add/remove features; increase k; try different distance metrics |
 | **High DB index (>2)** | Diffuse, scattered clusters | Too many clusters or noisy data | Reduce k; filter outliers |
 | **Uninterpretable clusters** | No clear commuter/tourist pattern | Features don't capture behavior | Re-engineer (e.g., add `trip_speed`, `station_popularity`) |
 | **Unstable clusters** | Results vary across seeds | K-Means stuck in local minima | Increase `n_init`; try hierarchical |

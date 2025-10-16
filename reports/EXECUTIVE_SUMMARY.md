@@ -84,7 +84,7 @@ New York City's bike-share system serves **1.6 million riders** monthly, but we 
 
 | Metric | Value | What It Means |
 |--------|-------|---------------|
-| **Trips Analyzed** | 159,415 (10% sample) | Representative of 1.6M monthly trips |
+| **Trips Analyzed** | 159,141 (10% sample) | Representative of 1.6M monthly trips |
 | **Clusters Found** | 7 distinct groups | Last-mile (72%), leisure (2%), casual (16%), long-distance (10%) |
 | **CO₂ Avoided** | 11,000 tons/year | Equivalent to removing **2,400 cars** from roads |
 | **Active Minutes** | 18.5 million/month | Massive public health benefit (exercise) |

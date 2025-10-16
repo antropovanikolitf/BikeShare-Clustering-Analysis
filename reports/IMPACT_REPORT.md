@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-This project applied machine learning clustering to analyze 1.6 million bike-share trips in New York City (spring/summer 2025), revealing **7 distinct rider behavior patterns** that inform sustainable urban transport planning. Using K-Means clustering on 159,415 trips (10% sample), we identified actionable segments for infrastructure investment and service optimization.
+This project applied machine learning clustering to analyze 1.6 million bike-share trips in New York City (spring/summer 2025), revealing **7 distinct rider behavior patterns** that inform sustainable urban transport planning. Using K-Means clustering on 159,141 trips (10% sample), we identified actionable segments for infrastructure investment and service optimization.
 
 ### Key Findings
 ✅ **Algorithm Success**: K-Means k=7 achieved silhouette score of 0.320 (acceptable separation) and Davies-Bouldin index 1.177 (tight clusters). Selected for **interpretability** over DBSCAN (14 over-segmented clusters).
@@ -320,7 +320,7 @@ Clustering Insights → Policy Actions → System Improvements → Sustainabilit
 ## 6. Limitations & Future Work
 
 ### Data Limitations
-⚠️ **10% Sampling**: Analysis based on 159,415 trips (10% random sample) of 1.6M full dataset
+⚠️ **10% Sampling**: Analysis based on 159,141 trips (10% random sample) of 1.6M full dataset
    - **Impact**: Rare patterns (<1% of trips) may be underrepresented
    - **Validation**: Feature distributions match full dataset within 2%
    - **Recommendation**: Re-run on full dataset for production deployment
@@ -338,7 +338,7 @@ Clustering Insights → Policy Actions → System Improvements → Sustainabilit
    - Recommend validation with rider surveys
 
 ### Methodology Limitations
-⚠️ **PCA Compression**: 2D visualizations capture only 48.2% of variance
+⚠️ **PCA Compression**: 2D visualizations capture only 44.4% of variance
    - Clusters are better separated in 8D feature space than 2D projection
    - Diagonal stripe pattern reflects categorical feature interactions (not data issues)
 

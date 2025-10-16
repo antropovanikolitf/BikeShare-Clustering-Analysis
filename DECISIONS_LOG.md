@@ -347,7 +347,7 @@ min_samples=50 seems reasonable for 159K sample (about 0.03% of data).
 ### [2025-10-05] 10% Sampling Strategy Due to Computational Constraints
 **Context**: During Capstone 3 execution, K-Means and DBSCAN experiments on full 1.6M dataset were taking hours to complete on laptop hardware.
 
-**Decision**: **Use 10% random sample (159,415 rows)** for all clustering experiments and visualizations.
+**Decision**: **Use 10% random sample (159,141 rows)** for all clustering experiments and visualizations.
 
 **Rationale**:
 - **Computational feasibility**: Full dataset runtime was 2-3+ hours; 10% sample completes in 5-10 minutes
@@ -395,7 +395,7 @@ min_samples=50 seems reasonable for 159K sample (about 0.03% of data).
 **Next Step**:
 - Proceed with Capstone 4 (evaluation & visualization) using 10% sample
 - Note sampling strategy in EXECUTIVE_SUMMARY.md and IMPACT_REPORT.md
-- ~~Add sampling caveat to all generated figures (subtitle: "Based on 10% random sample, n=159,415")~~ decided against - clutters visualizations, will mention in reports instead
+- ~~Add sampling caveat to all generated figures (subtitle: "Based on 10% random sample, n=159,141")~~ decided against - clutters visualizations, will mention in reports instead
 
 ---
 

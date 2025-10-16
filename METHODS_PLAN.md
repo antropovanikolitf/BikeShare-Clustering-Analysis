@@ -137,7 +137,7 @@ From CitiBike / similar bike-share trip CSVs:
 
 ⚠️ **UPDATE (2025-10-05)**: **10% Sampling Strategy**
 - **Computational constraints**: Full 1.6M dataset requires 2-3+ hours runtime on laptop
-- **Solution**: Use 10% random sample (159,415 rows) for all experiments
+- **Solution**: Use 10% random sample (159,141 rows) for all experiments
 - **Validation**: Sample is statistically representative (n>10K sufficient for pattern discovery)
 - **Impact**: Results generalize to full dataset; metrics within ±0.05 of full-dataset scores
 - **See DECISIONS_LOG.md** for full rationale and validation
