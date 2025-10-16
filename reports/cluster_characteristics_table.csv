@@ -1,0 +1,8 @@
+Cluster,Interpretation,Size,Pct_of_Total,Avg_Duration_Min,Avg_Distance_Km,Avg_Start_Hour,Pct_Weekend,Pct_Member,Pct_Round_Trip,Top_Start_Station,Top_End_Station
+0,"Last-Mile Connectors (very short, near transit)",57440,36.1%,8.2,1.65,14.1,0.0%,100.0%,0.0%,W 21 St & 6 Ave,W 21 St & 6 Ave
+1,"Leisure Loops (round trips, parks/attractions)",3320,2.1%,19.1,0.00,14.6,33.6%,59.8%,100.0%,Central Park S & 6 Ave,Central Park S & 6 Ave
+2,"Last-Mile Connectors (very short, near transit)",29565,18.6%,9.7,1.71,14.0,100.0%,100.0%,0.0%,W 21 St & 6 Ave,W 21 St & 6 Ave
+3,"Weekday Casual Riders (Park Access)",15576,9.8%,13.6,1.91,14.8,0.0%,0.0%,0.0%,7 Ave & Central Park South,Central Park S & 6 Ave
+4,"Last-Mile Connectors (very short, near transit)",27701,17.4%,8.6,1.26,13.9,0.0%,100.0%,0.0%,Lafayette St & E 8 St,Ave A & E 14 St
+5,Regular Users/Off-Peak Commuters,15930,10.0%,29.5,5.54,14.4,17.7%,88.9%,0.0%,West St & Chambers St,West St & Chambers St
+6,"Weekend Casual Riders (Leisure Explorers)",9609,6.0%,17.0,2.22,14.0,100.0%,0.0%,0.0%,10 Ave & W 14 St,7 Ave & Central Park South
